@@ -4,8 +4,8 @@
 function FIM = fisher(tspan,x0,params,xfcn,yfcn)
 % using 1% perturbations in the parameter to calculate the parameter
 % sensitivities, with the simplified FIM = X'X. (note we've dropped the
-% weighting term for the structural identifiability analysis. For more
-% information, please see:
+% weighting term for the structural identifiability analysis). 
+% For more information, please see:
 % Eisenberg MC, Hayashi MAL. 2014. Determining Identifiable Parameter 
 % Combinations Using Subset Profiling. Mathematical Biosciences 256: 116?126.
  
@@ -20,7 +20,7 @@ for j=1:length(params)
     [t x2] = ode45(xfcn,tspan,x0,[],params2);
     X = [X, (yfcn(params1(end),x1) - yfcn(params2(end),x2))./(0.02*params(j))];
     %this fills in the jth column of the design matrix with the sensitivities to parameter j 
-    %at each time point.  Note x1(:,2) is the infected compartment.
+    %at each time point.
 end
 
 FIM = X'*X;
