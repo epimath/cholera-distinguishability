@@ -295,8 +295,8 @@ for i=1:length(datasets)
     latextable = [latextable; header; minitable];
 end
 
-header = {'Parameters/AIC','&','&',modelnames{1},'&',modelnames{2},'&',modelnames{3},'&',modelnames{4},'&',modelnames{5},'\\ \hline'};
-latextable = [header; latextable];
+% header = {'Parameters/AIC','&','&',modelnames{1},'&',modelnames{2},'&',modelnames{3},'&',modelnames{4},'&',modelnames{5},'\\ \hline'};
+% latextable = [header; latextable];
 
 %swap order so 2nd model is DR and 4th model is gamma, for both fitting and generating models
 latextable(:,[6,10]) = latextable(:,[10,6]);
