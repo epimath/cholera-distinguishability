@@ -5,6 +5,6 @@ Model distinguishability and inference robustness in mechanisms of cholera trans
 
 Questions? Contact Marisa Eisenberg (marisae@umich.edu)
 
-The code given here will simulate and fit data from five different models of cholera dynamics in a population, as well as fitting to data from the 2006 cholera epidemic in Angola. While this code generates some basic plots, Elizabeth Lee has also made much nicer R code available for plotting the resulting parameter estimates and fits at :octocat: [eclee25/cholera-paramEstPlots](https://github.com/eclee25/cholera-paramEstPlots). 
+The code given here will simulate and fit data from five different models of cholera dynamics in a population, as well as fitting to data from the 2006 cholera epidemic in Angola. To run, start with `SimFitAllMain.m`. While this code generates some basic plots, Elizabeth Lee has also made much nicer R code available for plotting the resulting parameter estimates and fits at :octocat: [eclee25/cholera-paramEstPlots](https://github.com/eclee25/cholera-paramEstPlots). 
 
 Please cite the paper referenced above if you use our code or adapt it for your project. 
