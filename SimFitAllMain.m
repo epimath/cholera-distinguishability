@@ -99,7 +99,7 @@ modelnames = {'Exponential','Gamma','Asymptomatic','Dose Response','Waning'};
 %%% Baseline parameters
 % complete list of all parameters to be used
 %           betaI,betaW, xi, alpha, k,      alpha_S,   alpha_A   u1,u2
-allparams = [0.25 0.50 0.01 (1/365) 1/50000 1/(2*365) 1/(0.5*365) 1 1];
+allparams = [0.25 0.50 0.01 (1/365) 1/50000 1/(2*365) 9/(8*365) 1 1];
 % use these to make the parameter sets for each model (same order as models)
 baseparams = {allparams(1:5),allparams(1:5),...
     [allparams(1:2) allparams(6:7) allparams(3) 0.2*allparams(5)],... %note that order and k for asymp is different!
