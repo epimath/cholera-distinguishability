@@ -1,7 +1,7 @@
 # cholera-distinguishability
 Code for cholera model comparison and distinguishability project. This is the source code for:
 
-Model distinguishability and inference robustness in mechanisms of cholera transmission and loss of immunity. Elizabeth C. Lee, Michael R. Kelly, Brad M. Ochocki, Segun M. Akinwumi, Karen E. S. Hamre, Joseph H. Tien, and Marisa C. Eisenberg. In revision. [Preprint: arXiv:1605.06790](http://arxiv.org/abs/1605.06790).
+[Model distinguishability and inference robustness in mechanisms of cholera transmission and loss of immunity](http://www.sciencedirect.com/science/article/pii/S0022519317300322). Elizabeth C. Lee, Michael R. Kelly, Brad M. Ochocki, Segun M. Akinwumi, Karen E. S. Hamre, Joseph H. Tien, and Marisa C. Eisenberg. Journal of Theoretical Biology, 420: 68–81. [Preprint: arXiv:1605.06790](http://arxiv.org/abs/1605.06790).
 
 Questions? Contact Marisa Eisenberg (marisae@umich.edu)
 
